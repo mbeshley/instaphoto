@@ -1,10 +1,10 @@
-// Custom bootstrap variables must be set or imported *before* bootstrap.
-@import "bootstrap";
-
 $display3-size: 2.5rem;
 $jumbotron-bg: rgba(255,255,255, 0.5);
 $btn-primary-bg: #6BB9F0;
 $btn-warning-bg: #E08283;
+
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "bootstrap";
 
 .container-background {
 	background-image: image-url(image_path('background.jpg'));
