@@ -1,0 +1,31 @@
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "bootstrap";
+
+$display3-size: 2.5rem;
+$jumbotron-bg: rgba(255,255,255, 0.5);
+$btn-primary-bg: #6BB9F0;
+$btn-warning-bg: #E08283;
+
+.container-background {
+	background-image: image-url(image_path('background.jpg'));
+	background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.jumbotron-landing{
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.nav-landing:link,
+.nav-landing:visited {
+	color: #3498DB;
+}
+
+.nav-landing:hover,
+.nav-landing:active {
+	color: #59ABE3;
+	text-decoration: none;
+}
